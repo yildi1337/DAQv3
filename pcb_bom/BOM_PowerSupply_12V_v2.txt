@@ -1,0 +1,17 @@
+Stückliste exportiert aus D:/OneDrive/Elektronikprojekte/DAQ v3 STM32H7/Eagle/Power Supply 12V v2/PowerSupply_12V_v2.sch am 25.05.2022 18:54
+
+Qty Value           Device                          Package                         Parts                              Description                          POPULARITY SPICEPREFIX
+4                   RSPRO-1MM-TERMINAL-POST-2622034 RSPRO-1MM-TERMINAL-POST-2622034 TP_+12V, TP_-12V, TP_GND1, TP_GND2                                                            
+2   0031.8201       0031.8201                       0031.8201                       FUSE_+12V, FUSE_-12V                                                                          
+1   09031326921     09031326921                     09031326921                     CON_BACKPLANE                                                                                 
+4   100n            C-EUC0603                       C0603                           C3, C5, C8, C10                    CAPACITOR, European symbol           73         C          
+2   100u/25V        CPOL-EU153CLV-0810              153CLV-0810                     C4, C9                             POLARIZED CAPACITOR, European symbol 4          C          
+2   113-314-04      113-314-04                      113-314-04                      LED_+12V_OK, LED_-12V_OK                                                                      
+4   22u/25V         CPOL-EU153CLV-0505              153CLV-0505                     C1, C2, C6, C7                     POLARIZED CAPACITOR, European symbol 3          C          
+1   60807-011       60807-011                       60807-011                       PCB_BRACKET                                                                                   
+2   680             R-EU_R0603                      R0603                           R1, R2                             RESISTOR, European symbol            70         R          
+2   FK 237 SA 220 O FK_237_SA_220_O                 FK_237_SA_220_O                 HS1, HS2                                                                                      
+1   L7812CV         L7812CV                         L7812CV                         IC1                                                                                           
+1   L7912CV         L7912CV                         L7912CV                         IC2                                                                                           
+2   TMLM_20115      TMLM_201XX                      TMLM_201XX                      PS1, PS2                                                                                      
+2   VLS6045AF-101M  VLS6045AF-101M                  VLS6045AF-101M                  L1, L2                                                                                        
