@@ -1,5 +1,3 @@
-Stückliste exportiert aus D:/OneDrive/Elektronikprojekte/DAQ v3 STM32H7/Eagle/Power Supply 12V v2/PowerSupply_12V_v2.sch am 25.05.2022 18:54
-
 Qty Value           Device                          Package                         Parts                              Description                          POPULARITY SPICEPREFIX
 4                   RSPRO-1MM-TERMINAL-POST-2622034 RSPRO-1MM-TERMINAL-POST-2622034 TP_+12V, TP_-12V, TP_GND1, TP_GND2                                                            
 2   0031.8201       0031.8201                       0031.8201                       FUSE_+12V, FUSE_-12V                                                                          

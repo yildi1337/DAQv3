@@ -1,5 +1,3 @@
-Stückliste exportiert aus D:/OneDrive/Elektronikprojekte/DAQ v3 STM32H7/Eagle/USB Connectors v1/USBConnectors_v1.sch am 14.03.2022 20:18
-
 Qty Value          Device                Package               Parts                           Description                POPULARITY SPICEPREFIX
 2   1.5k           R-EU_R0603            R0603                 R1, R2                          RESISTOR, European symbol  70         R          
 5   100n           C-EUC0603             C0603                 C2, C4, C5, C6, C7              CAPACITOR, European symbol 73         C          

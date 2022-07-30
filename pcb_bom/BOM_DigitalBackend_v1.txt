@@ -1,5 +1,3 @@
-Stückliste exportiert aus D:/OneDrive/Elektronikprojekte/DAQ v3 STM32H7/Eagle/Digital Backend v1/DigitalBackend_v1.sch am 20.03.2022 16:16
-
 Qty Value                           Device                          Package                         Parts                                                                                                   Description                          POPULARITY SPICEPREFIX
 6                                   LEDCHIP-LED0603                 CHIP-LED0603                    LED_+3.3V_VDD, LED_+3V3_VDDA, LED_DEBUG1, LED_DEBUG2, LED_DEBUG3, LED_DEBUG4                            LED                                  26                    
 4                                   RSPRO-1MM-TERMINAL-POST-2622034 RSPRO-1MM-TERMINAL-POST-2622034 TP_GND1, TP_GND2, TP_GND3, TP_GND4                                                                                                                                 
