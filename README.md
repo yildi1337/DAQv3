@@ -4,6 +4,7 @@ A Dual-Channel, Low Noise, Modular, 100 kHz Bandwidth, 24-Bit Data Acquisition (
 # Table of Contents
 
 - **[Introduction](#introduction)**
+- **[CAD Model](#cad_model)**
 - **[Modules](#modules)**
   - [AnalogConversion_v1](#AnalogConversion_v1)
   - [AnalogConversion_v2](#AnalogConversion_v2)
@@ -15,6 +16,20 @@ A Dual-Channel, Low Noise, Modular, 100 kHz Bandwidth, 24-Bit Data Acquisition (
   - [PowerSupply_12V_v1](#PowerSupply_12V_v1)
   - [PowerSupply_12V_v2](#PowerSupply_12V_v2)
   - [USBConnectors_v1](#USBConnectors_v1)
+
+# Introduction
+
+Work in progress ...
+
+
+# CAD Model
+
+The complete CAD model can be downloaded <a href="https://github.com/yildi1337/DAQv3/tree/main/cad_complete">here</a> (Autodesk Inventor 2023 files) including all <a href="#modules">modules</a> and the case.
+
+<p align="center">
+    <img src="https://github.com/yildi1337/DAQv3/blob/main/cad_complete/DAQ_v3.png" />
+</p>
+
 
 # Modules
 
