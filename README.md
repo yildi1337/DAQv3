@@ -24,7 +24,7 @@ Work in progress ...
 
 # CAD Model
 
-The complete CAD model can be downloaded <a href="https://github.com/yildi1337/DAQv3/tree/main/cad_complete">here</a> (Autodesk Inventor 2023 files) including all <a href="#modules">modules</a> and the case.
+The complete CAD model can be downloaded <a href="https://github.com/yildi1337/DAQv3/tree/main/cad_complete/inventor">here</a> (Autodesk Inventor 2023 files) including all <a href="#modules">modules</a> and the case.
 
 <p align="center">
     <img src="https://github.com/yildi1337/DAQv3/blob/main/cad_complete/DAQ_v3.png" />
