@@ -4,7 +4,7 @@ A Dual-Channel, Low Noise, Modular, 100 kHz Bandwidth, 24-Bit Data Acquisition (
 # Table of Contents
 
 - **[Introduction](#introduction)**
-- **[CAD Model](#cad_model)**
+- **[CAD Model](#cad model)**
 - **[Modules](#modules)**
   - [AnalogConversion_v1](#AnalogConversion_v1)
   - [AnalogConversion_v2](#AnalogConversion_v2)
