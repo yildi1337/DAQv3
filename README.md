@@ -19,8 +19,8 @@ A Dual-Channel, Low Noise, Modular, 100 kHz Bandwidth, 24-Bit Data Acquisition (
 - **[Firmware](#firmware)**
 - **[USB Driver](#usb-driver)**
 - **[Noise Measurements](#noise-measurements)**
-  - [Evolution](#noise-measurements-evolution)
-  - [PS v2 / ACNV v3](#noise-measurements-ps-v2-acnv-v3)
+  - [Evolution](#evolution)
+  - [PS v2 / ACNV v3](#ps-v2-acnv-v3)
 
 # Introduction
 
