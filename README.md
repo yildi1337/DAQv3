@@ -163,3 +163,16 @@ The complete CAD model can be downloaded <a href="https://github.com/yildi1337/D
 <p align="center">
     <img src="https://github.com/yildi1337/DAQv3/blob/main/cad_modules_pictures/USBConnectors_v1.png" />
 </p>
+
+# Firmware
+
+The firmware running on the STM32H753ZIT6 is mainly written in ANSI C and has been developed in <a href="https://www.st.com/en/development-tools/stm32cubeide.html">STM32CubeIDE</a> version 1.10.1 utilizing the official <a href="https://github.com/STMicroelectronics/stm32h7xx_hal_driver">STM32H7xx_HAL_Driver</a>. The firmware performs the following tasks, among others:
+
+- Configuration of the ADC AD7768 (on module <a href="##AnalogConversion_v3">AnalogConversion_v3</a>) via SPI (SPI_3).
+- Reception of sampled data from the ADC AD7768 via SPI (SPI_2) and DMA (DMA1_Stream0).
+- Transmission of sampled data from the ADC AD7768 via USB 2.0 Hi-Speed to the PC utilizing ULPI interface and an additional Hi-Speed USB PHY (USB3300).
+- Handling USART connection (USART_1, via FT232RL chip on <a href="##USBConnectors_v1">USBConnectors_v1</a>) for debug purposes and for exchanging control/status commands with the PC.
+- Controlling I2C bus (I2C_4) for controlling I/O expander TCA9534A (e.g. on module <a href="##AnalogConversion_v3">AnalogConversion_v3</a>) which, in turn, drives a relay driver (MAX4820) on the same module.
+- Controlling front LEDs (on module <a href="##DigitalBackend_v1">DigitalBackend_v1</a>)
+
+The complete source code can be found in <a href="https://github.com/yildi1337/DAQv3/tree/main/firmware">here</a>.
