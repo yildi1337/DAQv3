@@ -20,7 +20,7 @@ A Dual-Channel, Low Noise, Modular, 100 kHz Bandwidth, 24-Bit Data Acquisition (
 - **[USB Driver](#usb-driver)**
 - **[Noise Measurements](#noise-measurements)**
   - [Evolution](#evolution)
-  - [PS v2 / ACNV v3](#ps-v2-acnv-v3)
+  - [Current Status](#current-status)
 
 # Introduction
 
@@ -197,7 +197,16 @@ Two USB drivers are needed for operating the DAQ v3:
     <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_evolution_short.png" />
 </p>
 
-## PS v2 / ACNV v3
+## Current Status
+
+The current setup consists of the modules:
+
+- <a href="#Backplane_v1">Backplane_v1</a>
+- <a href="#PowerSupply_5V_v2">PowerSupply_5V_v2</a>
+- <a href="#PowerSupply_12V_v2">PowerSupply_12V_v2</a>
+- <a href="#AnalogConversion_v3">AnalogConversion_v3</a>
+- <a href="#DigitalBackend_v1">DigitalBackend_v1</a>
+- <a href="#USBConnectors_v1">USBConnectors_v1</a>
 
 <p align="center">
     <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v2_acnv_v3_open_short_50ohm.png" />
