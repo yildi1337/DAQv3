@@ -199,7 +199,7 @@ The two linear power supply modules of version v1 both operate with transformers
 
 The two power supply modules of version v2 both operate with AC/DC power modules (<a href="https://www.tracopower.com/de/deu/model/tmlm-20105">TMLM 20105</a>, <a href="https://www.tracopower.com/de/deu/model/tmlm-20115">TMLM 20115</a>) from Traco Power. Their switching frequencies are around 132 +/- 8 kHz and thus above the useful range of 0 - 100 kHz.
 
-The <a href="#AnalogConversion_v3">AnalogConversion_v3</a> module contains a relay for optionally connecting the front panel (chassis) to the analog ground (AGND) of the PCB (Grounded Mode). In floating mode significantly more interference occurs.
+The <a href="#AnalogConversion_v3">AnalogConversion_v3</a> module contains a relay for optionally connecting the front panel (chassis) to the analog ground (AGND) of the PCB (grounded mode). In floating mode significantly more interference occurs.
 
 <p align="center">
     <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_evolution_short.png" />
