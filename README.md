@@ -17,6 +17,7 @@ A Dual-Channel, Low Noise, Modular, 100 kHz Bandwidth, 24-Bit Data Acquisition (
   - [PowerSupply_12V_v2](#PowerSupply_12V_v2)
   - [USBConnectors_v1](#USBConnectors_v1)
 - **[Firmware](#firmware)**
+- **[USB Driver](#usb-driver)**
 
 # Introduction
 
@@ -177,3 +178,10 @@ The firmware running on the STM32H753ZIT6 is mainly written in ANSI C and has be
 - Controlling front LEDs (on module <a href="#DigitalBackend_v1">DigitalBackend_v1</a>).
 
 The complete source code can be found in <a href="https://github.com/yildi1337/DAQv3/tree/main/firmware">here</a>.
+
+# USB Driver
+
+Two USB drivers are needed for operating the DAQ v3:
+
+- For the reception of the sampled data from the ADC NI-VISA is utilized. The driver matching the hardware of this project has been generated with the NI-VISA Driver Wizard an can be downloaded <a href="https://github.com/yildi1337/DAQv3/tree/main/usb_driver/ni-visa">here</a>.
+- To use the USB debug interface only the official USB serial driver from FTDI is required, which can be downloaded <a href="https://github.com/yildi1337/DAQv3/tree/main/usb_driver/ftdi">here</a>.
