@@ -18,6 +18,9 @@ A Dual-Channel, Low Noise, Modular, 100 kHz Bandwidth, 24-Bit Data Acquisition (
   - [USBConnectors_v1](#USBConnectors_v1)
 - **[Firmware](#firmware)**
 - **[USB Driver](#usb-driver)**
+- **[Noise Measurements](#noise-measurements)**
+  - [Evolution](#noise-measurements-evolution)
+  - [PS v2 / ACNV v3](#noise-measurements-ps-v2-acnv-v3)
 
 # Introduction
 
@@ -185,3 +188,18 @@ Two USB drivers are needed for operating the DAQ v3:
 
 - For the reception of the sampled data from the ADC NI-VISA is utilized. The driver matching the hardware of this project has been generated with the NI-VISA Driver Wizard an can be downloaded <a href="https://github.com/yildi1337/DAQv3/tree/main/usb_driver/ni-visa">here</a>.
 - To use the USB debug interface only the official USB serial driver from FTDI is required, which can be downloaded <a href="https://github.com/yildi1337/DAQv3/tree/main/usb_driver/ftdi">here</a>.
+
+# Noise Measurements
+
+## Evolution
+
+<p align="center">
+    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_evolution_short.png" />
+</p>
+
+## PS v2 / ACNV v3
+
+<p align="center">
+    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v2_acnv_v3_open_short_50ohm.png" />
+</p>
+
