@@ -190,7 +190,7 @@ Two USB drivers are needed for operating the DAQ v3:
 - For the reception of the sampled data from the ADC NI-VISA is utilized. The driver matching the hardware of this project has been generated with the NI-VISA Driver Wizard an can be downloaded <a href="https://github.com/yildi1337/DAQv3/tree/main/usb_driver/ni-visa">here</a>.
 - To use the USB debug interface only the official USB serial driver from FTDI is required, which can be downloaded <a href="https://github.com/yildi1337/DAQv3/tree/main/usb_driver/ftdi">here</a>.
 
-#Debug and Control Interface
+# Debug and Control Interface
 
 Tool for graphical display of status information and for controlling the hardware via the virtual serial interface (second USB-B port). The python source code and a binary (only tested on x64 Microsoft Windows 10) can be downloaded <a href="https://github.com/yildi1337/DAQv3/tree/main/debug_interface">here</a>. 
 
