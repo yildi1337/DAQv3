@@ -19,7 +19,7 @@ A Dual-Channel, Low Noise, Modular, 100 kHz Bandwidth, 24-Bit Data Acquisition (
 - **[Firmware](#firmware)**
 - **[USB Driver](#usb-driver)**
 - **[Debug and Control Interface](#debug-and-control-interface)**
-- **[Noise Measurements](#noise-measurements)**
+- **[Measurement Results](#measurement-results)**
   - [Linear Power Supply vs. Switched-Mode Power Supply](#linear-power-supply-vs-switched-mode-power-supply)
   - [Differential Input Module (AnalogConversion_v3)](#differential-input-module-analogconversion_v3)
 
@@ -198,7 +198,7 @@ Tool for graphical display of status information and for controlling the hardwar
     <img src="https://github.com/yildi1337/DAQv3/blob/main/debug_interface/screenshots/debug_interface_01.png" />
 </p>
 
-# Noise Measurements
+# Measurement Results
 
 ## Linear Power Supply vs. Switched-Mode Power Supply
 
@@ -223,13 +223,16 @@ The investigated setup consists of the modules:
 - <a href="#DigitalBackend_v1">DigitalBackend_v1</a>
 - <a href="#USBConnectors_v1">USBConnectors_v1</a>
 
-### Grounding
+### Mains Interference and Grounding
+
+The two differential inputs of each channel were connected via <a href="https://www.mouser.de/ProductDetail/Amphenol-RF/132360?qs=V8V9vCxO5JtDrelx3RqrVA%3D%3D">50 Ohm SMA resistors</a> with AGND (SHIELD connected via R6 = 0 Ohm with AGND, <a href="https://github.com/yildi1337/DAQv3/blob/main/schematics/AnalogConversion_v3_Schematics.pdf">see schematics</a>).
 
 <p align="center">
     <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v2_acnv_v3_grounding.png" />
 </p>
 
 ### ADC RAW Data for Several Input Configurations
+
 <p align="center">
     <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v2_acnv_v3_open_short_50ohm_raw.png" />
 </p>
