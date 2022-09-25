@@ -20,8 +20,8 @@ A Dual-Channel, Low Noise, Modular, 100 kHz Bandwidth, 24-Bit Data Acquisition (
 - **[USB Driver](#usb-driver)**
 - **[Debug and Control Interface](#debug-and-control-interface)**
 - **[Noise Measurements](#noise-measurements)**
-  - [Evolution](#evolution)
-  - [Current Status](#current-status)
+  - [Linear Power Supply vs. Switched-Mode Power Supply](#linear-power-supply-vs.-switched-mode-power-supply)
+  - [Differential Input Module (AnalogConversion_v3)](#differential-input-module-(analogconversion_v3))
 
 # Introduction
 
@@ -172,7 +172,7 @@ The complete CAD model can be downloaded <a href="https://github.com/yildi1337/D
 
 # Firmware
 
-The firmware running on the STM32H753ZIT6 is mainly written in ANSI C and has been developed in <a href="https://www.st.com/en/development-tools/stm32cubeide.html">STM32CubeIDE</a> version 1.10.1 utilizing the official <a href="https://github.com/STMicroelectronics/stm32h7xx_hal_driver">STM32H7xx_HAL_Driver</a>. The firmware performs the following tasks, among others:
+The firmware running on the STM32H753ZIT6 is mainly written in ANSI C and has been developed in <a href="https://www.st.com/en/development-tools/stm32cubeide.html">STM32CubeIDE</a> version 1.10.1 utilizing the official <a href="https://github.com/STMicroelectronics/stm32h7xx_hal_driver">STM32H7xx_HAL_Driver</a>. Among others, the firmware performs the following tasks:
 
 - Configuration of the ADC AD7768 (on module <a href="#AnalogConversion_v3">AnalogConversion_v3</a>) via SPI (SPI_3).
 - Reception of sampled data from the ADC AD7768 via SPI (SPI_2) and DMA (DMA1_Stream0).
@@ -200,23 +200,21 @@ Tool for graphical display of status information and for controlling the hardwar
 
 # Noise Measurements
 
-## Evolution
+## Linear Power Supply vs. Switched-Mode Power Supply
 
 Noise measurements (60 seconds) were performed for several combinations of modules, where the abbreviations PS and ACNV in the titles refer to the power supply and analog conversion modules.
 
 The two linear power supply modules of version v1 both operate with transformers. This resulted in magnetic interference in the form of the mains frequency and multiples thereof.
 
-The two power supply modules of version v2 both operate with AC/DC power modules (<a href="https://www.tracopower.com/de/deu/model/tmlm-20105">TMLM 20105</a>, <a href="https://www.tracopower.com/de/deu/model/tmlm-20115">TMLM 20115</a>) from Traco Power. Their switching frequencies are around 132 +/- 8 kHz and thus above the useful range of 0 - 100 kHz.
-
-The <a href="#AnalogConversion_v3">AnalogConversion_v3</a> module offers differential inputs. Interferences at higher frequencies could be decreased. However, in the low frequency regime additional spurs at 100 Hz and 200 Hz occur.
+The two power supply modules of version v2 both operate with AC/DC power modules (<a href="https://www.tracopower.com/de/deu/model/tmlm-20105">TMLM 20105</a>, <a href="https://www.tracopower.com/de/deu/model/tmlm-20115">TMLM 20115</a>) from Traco Power. Their switching frequencies are around 132 +/- 8 kHz and thus above the useful range of 0 - 100 kHz (Nyquist frequency is 128 kHz).
 
 <p align="center">
-    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_evolution_short.png" />
+    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v1_vs_p2_v2_acnv_v3" />
 </p>
 
-## Current Status
+## Differential Input Module (AnalogConversion_v3)
 
-The current setup consists of the modules:
+The investigated setup consists of the modules:
 
 - <a href="#Backplane_v1">Backplane_v1</a>
 - <a href="#PowerSupply_5V_v2">PowerSupply_5V_v2</a>
@@ -225,11 +223,14 @@ The current setup consists of the modules:
 - <a href="#DigitalBackend_v1">DigitalBackend_v1</a>
 - <a href="#USBConnectors_v1">USBConnectors_v1</a>
 
-<p align="center">
-    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v2_acnv_v3_open_short_50ohm_raw.png" />
-</p>
+### Grounding
 
 <p align="center">
-    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v2_acnv_v3_50ohm.png" />
+    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v2_acnv_v3_grounding" />
+</p>
+
+### ADC RAW Data for Several Input Configurations
+<p align="center">
+    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v2_acnv_v3_open_short_50ohm_raw.png" />
 </p>
 
