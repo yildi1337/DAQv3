@@ -20,8 +20,8 @@ A Dual-Channel, Low Noise, Modular, 100 kHz Bandwidth, 24-Bit Data Acquisition (
 - **[USB Driver](#usb-driver)**
 - **[Debug and Control Interface](#debug-and-control-interface)**
 - **[Noise Measurements](#noise-measurements)**
-  - [Linear Power Supply vs. Switched-Mode Power Supply](#linear-power-supply-vs.-switched-mode-power-supply)
-  - [Differential Input Module (AnalogConversion_v3)](#differential-input-module-(analogconversion_v3))
+  - [Linear Power Supply vs. Switched-Mode Power Supply](#linear-power-supply-vs-switched-mode-power-supply)
+  - [Differential Input Module (AnalogConversion_v3)](#differential-input-module-analogconversion_v3)
 
 # Introduction
 
@@ -209,7 +209,7 @@ The two linear power supply modules of version v1 both operate with transformers
 The two power supply modules of version v2 both operate with AC/DC power modules (<a href="https://www.tracopower.com/de/deu/model/tmlm-20105">TMLM 20105</a>, <a href="https://www.tracopower.com/de/deu/model/tmlm-20115">TMLM 20115</a>) from Traco Power. Their switching frequencies are around 132 +/- 8 kHz and thus above the useful range of 0 - 100 kHz (Nyquist frequency is 128 kHz).
 
 <p align="center">
-    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v1_vs_p2_v2_acnv_v3" />
+    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v1_vs_p2_v2_acnv_v3.png" />
 </p>
 
 ## Differential Input Module (AnalogConversion_v3)
@@ -226,7 +226,7 @@ The investigated setup consists of the modules:
 ### Grounding
 
 <p align="center">
-    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v2_acnv_v3_grounding" />
+    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v2_acnv_v3_grounding.png" />
 </p>
 
 ### ADC RAW Data for Several Input Configurations
