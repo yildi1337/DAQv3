@@ -226,6 +226,10 @@ The current setup consists of the modules:
 - <a href="#USBConnectors_v1">USBConnectors_v1</a>
 
 <p align="center">
+    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v2_acnv_v3_open_short_50ohm_raw.png" />
+</p>
+
+<p align="center">
     <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v2_acnv_v3_50ohm.png" />
 </p>
 
