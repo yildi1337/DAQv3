@@ -250,9 +250,9 @@ The determined RMS noise values are in good agreement with the value of $11.58~\
     <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/adc_datasheet_rms_noise.png" />
 </p>
 
-In addition, for $V_{\mathrm{ref}} = 5~\mathrm{V}$, the dynamic range is better than 
+In addition, for $V_{\mathrm{ref}} = 5~\mathrm{V}$, the dynamic range of the utilized combination of opamp driver and ADC is better than 
 
-$$\mathrm{DR} = 20 \cdot \log_{10}\left(\frac{V_{\mathrm{ref}}}{\sqrt{2} \cdot \mathrm{RMS}\ \mathrm{noise}}\right)~\mathrm{dB} = 114~\mathrm{dB}$$ 
+$$\mathrm{DR} = 20 \cdot \log_{10}\left(\frac{2 \cdot V_{\mathrm{ref}}}{\sqrt{2} \cdot \mathrm{RMS}\ \mathrm{noise}}\right)~\mathrm{dB} = 114\ \mathrm{dB}$$ 
 
 ### ADC RAW Data for Several Input Configurations
 
