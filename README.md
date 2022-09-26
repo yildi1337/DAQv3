@@ -233,7 +233,9 @@ The two differential inputs of each channel were connected via <a href="https://
 
 Obviously, the lowest interference occurs in grounded mode and when GND of the backplane is directly connected to the chassis/the protective earth connector of the power entry module (first plot).
 
-This measurement result is therefore essential for the further development of the preamplifier. The gain of the preamplifier must be high enough to be able to neglect the noise from the opamp driver (ADA4945-1) and ADC (AD7768-4) determined here. A useful model for describing the power spectral density of the voltage noise $PSD(f)$ is the polynomial law 
+### Input Noise of Differential Opamp Driver and ADC
+
+The measurement result from above is essential for the further development of the preamplifier. The gain of the preamplifier must be high enough to be able to neglect the noise from the opamp driver (ADA4945-1) and ADC (AD7768-4) determined here. A useful model for describing the power spectral density of the voltage noise $PSD(f)$ is the polynomial law 
 $$PSD(f) = \sum_{i=-1}^{0} b_i f^i$$ 
 where $i=0$ and $i=-1$ refer to white noise and $1/f$ flicker noise, respectively. For this measurement, values of
 - $b_{-1} = 1.3 \cdot 10^{-13}~\mathrm{V}^2$
@@ -241,6 +243,15 @@ where $i=0$ and $i=-1$ refer to white noise and $1/f$ flicker noise, respectivel
 were found.
 
 This results in a $1/f$ corner frequency of $f_{\mathrm{c}} = b_{-1}/b_0 = 100~\mathrm{Hz}$. The white voltage noise density is equal to $\sqrt{b_0} = 36~\mathrm{nV}/\sqrt{\mathrm{Hz}}$. Based on the two time domain noise signals RMS noise values of $13.2~\mu\mathrm{V}$ (channel 1) and $13.5~\mu\mathrm{V}$ (channel 2) were determined after substracting the offsets of $-6.5~\mathrm{mV}$ and $-1.8~\mathrm{mV}$.
+
+The determined RMS noise values are in good agreement with the value of $11.58~\mu\mathrm{V}$ given in the datasheet.
+
+<p align="center">
+    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/adc_datasheet_rms_noise.png" />
+</p>
+
+In addition, for $V_{\mathrm{ref}} = 5~\mathrm{V}$, the dynamic range is better than 
+$$\mathrm{DR} = 20 \cdot log_{10}\left(\frac{V_{\mathrm{ref}}}{\sqrt{2} \cdot \mathrm{RMS~noise}}\right)~\mathrm{dB} = 114~\mathrm{dB}$$
 
 ### ADC RAW Data for Several Input Configurations
 
