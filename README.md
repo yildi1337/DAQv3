@@ -241,8 +241,8 @@ where $i=0$ and $i=-1$ refer to white noise and $1/f$ flicker noise, respectivel
 were found.
 
 
-This results in a $1/f$ corner frequency of 
-$$f_{\mathrm{c}} = \frac{b_{-1}}{b_0} = \frac{1.3 \cdot 10^{-13}~\mathrm{V}^2}{1.3 \cdot 10^{-15}~\mathrm{V}^2/\mathrm{Hz}} = 100~\mathrm{Hz}$$
+This results in a $1/f$ corner frequency of $f_{\mathrm{c}} = b_{-1}/b_0 = 100~\mathrm{Hz}$.
+
 
 ### ADC RAW Data for Several Input Configurations
 
