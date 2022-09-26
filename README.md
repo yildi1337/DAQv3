@@ -252,7 +252,7 @@ The determined RMS noise values are in good agreement with the value of $11.58~\
 
 In addition, for $V_{\mathrm{ref}} = 5~\mathrm{V}$, the dynamic range is better than 
 
-$$\mathrm{DR} = 20 \cdot \log_{10}\left(\frac{V_{\mathrm{ref}}}{\sqrt{2}~\mathrm{RMS~noise}}\right)~\mathrm{dB} = 114~\mathrm{dB}$$ 
+$$\mathrm{DR} = 20 \cdot \log_{10}\left(\frac{V_{\mathrm{ref}}}{\sqrt{2}~\mathrm{RMS}~\mathrm{noise}}\right)~\mathrm{dB} = 114~\mathrm{dB}$$ 
 
 ### ADC RAW Data for Several Input Configurations
 
