@@ -235,7 +235,11 @@ Obviously, the lowest interference occurs in grounded mode and when GND of the b
 
 This measurement result is therefore essential for the further development of the preamplifier. The gain of the preamplifier must be high enough to be able to neglect the noise from the opamp driver (ADA4945-1) and ADC (AD7768-4) determined here. A useful model for describing the power spectral density of the voltage noise $PSD(f)$ is the polynomial law 
 $$PSD(f) = \sum_{i=-1}^{0} b_i f^i$$ 
-where $i=0$ and $i=-1$ refer to white noise and $1/f$ flicker noise, respectively.
+where $i=0$ and $i=-1$ refer to white noise and $1/f$ flicker noise, respectively. For this measurement, values of
+- $b_{-1} = 1.3 \cdot 10^{-13}~\mathrm{V}^2$
+- $b_0 = 1.3 \cdot 10^{-15}~\mathrm{V}^2/\mathrm{Hz}$
+were found. This results in a $1/f$ corner frequency of
+$$f_{\mathrm{c}} = \frac{b_{-1}}{b_0} = \frac{1.3 \cdot 10^{-13}~\mathrm{V}^2}{1.3 \cdot 10^{-15}~\mathrm{V}^2/\mathrm{Hz}} = 100~\mathrm{Hz}$$.
 
 ### ADC RAW Data for Several Input Configurations
 
