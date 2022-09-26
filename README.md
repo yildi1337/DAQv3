@@ -244,7 +244,7 @@ were found.
 
 This results in a $1/f$ corner frequency of $f_{\mathrm{c}} = b_{-1}/b_0 = 100~\mathrm{Hz}$. The white voltage noise density is equal to $\sqrt{b_0} = 36~\mathrm{nV}/\sqrt{\mathrm{Hz}}$. Based on the two time domain noise signals RMS noise values of $13.2~\mu\mathrm{V}$ (channel 1) and $13.5~\mu\mathrm{V}$ (channel 2) were determined after substracting the DC offsets of $-6.5~\mathrm{mV}$ and $-1.8~\mathrm{mV}$.
 
-The determined RMS noise values are in good agreement with the value of $11.58~\mu\mathrm{V}$ given in the datasheet.
+The measured RMS noise values are in good agreement with the value of $11.58~\mu\mathrm{V}$ given in the datasheet (for the ADC only).
 
 <p align="center">
     <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/adc_datasheet_rms_noise.png" />
