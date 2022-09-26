@@ -240,9 +240,7 @@ where $i=0$ and $i=-1$ refer to white noise and $1/f$ flicker noise, respectivel
 - $b_0 = {1.3 \cdot 10^{-15}~\mathrm{V}^2/\mathrm{Hz}}$
 were found.
 
-
-This results in a $1/f$ corner frequency of $f_{\mathrm{c}} = b_{-1}/b_0 = 100~\mathrm{Hz}$. The white voltage noise density is equal to $\sqrt{b_0} = 36~\mathrm{nV}/\sqrt{\mathrm{Hz}}$.
-
+This results in a $1/f$ corner frequency of $f_{\mathrm{c}} = b_{-1}/b_0 = 100~\mathrm{Hz}$. The white voltage noise density is equal to $\sqrt{b_0} = 36~\mathrm{nV}/\sqrt{\mathrm{Hz}}$. Based on the two time domain noise signals RMS noise values of $13.2~\mu\mathrm{V}$ (channel 1) and $13.5~\mu\mathrm{V}$ (channel 2) were determined after substracting the offsets of $-6.5~\mathrm{mV}$ and $-1.8~\mathrm{mV}$.
 
 ### ADC RAW Data for Several Input Configurations
 
