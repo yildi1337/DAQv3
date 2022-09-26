@@ -202,14 +202,14 @@ Tool for graphical display of status information and for controlling the hardwar
 
 ## Linear Power Supply vs. Switched-Mode Power Supply
 
-Noise measurements (60 seconds) were performed for several combinations of modules, where the abbreviations PS and ACNV in the titles refer to the power supply and analog conversion modules.
+Noise measurements (60 seconds) were performed while powering the electronics with the power supplies of versions v1 and v2, where the abbreviations PS and ACNV in the titles refer to the power supply and analog conversion modules.
 
-The two linear power supply modules of version v1 both operate with transformers. This resulted in magnetic interference in the form of the mains frequency and multiples thereof.
+The two linear power supply modules of version v1 both operate with transformers. This resulted in heavy magnetic interference in the form of the mains frequency and multiples thereof.
 
 The two power supply modules of version v2 both operate with AC/DC power modules (<a href="https://www.tracopower.com/de/deu/model/tmlm-20105">TMLM 20105</a>, <a href="https://www.tracopower.com/de/deu/model/tmlm-20115">TMLM 20115</a>) from Traco Power. Their switching frequencies are around 132 +/- 8 kHz and thus above the useful range of 0 - 100 kHz (Nyquist frequency is 128 kHz).
 
 <p align="center">
-    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v1_vs_p2_v2_acnv_v3.png" />
+    <img src="https://github.com/yildi1337/DAQv3/blob/main/measurement_results/noise_ps_v1_vs_p2_v2_acnv_v1.png" />
 </p>
 
 ## Differential Input Module (AnalogConversion_v3)
