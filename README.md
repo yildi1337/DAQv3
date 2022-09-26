@@ -237,8 +237,11 @@ This measurement result is therefore essential for the further development of th
 $$PSD(f) = \sum_{i=-1}^{0} b_i f^i$$ 
 where $i=0$ and $i=-1$ refer to white noise and $1/f$ flicker noise, respectively. For this measurement, values of
 - $b_{-1} = 1.3 \cdot 10^{-13}~\mathrm{V}^2$
-- $b_0 = 1.3 \cdot 10^{-15}~\mathrm{V}^2/\mathrm{Hz}$
-were found. This results in a $1/f$ corner frequency of
+- $b_0 = {1.3 \cdot 10^{-15}~\mathrm{V}^2/\mathrm{Hz}}$
+were found.
+
+
+This results in a $1/f$ corner frequency of
 $$f_{\mathrm{c}} = \frac{b_{-1}}{b_0} = \frac{1.3 \cdot 10^{-13}~\mathrm{V}^2}{1.3 \cdot 10^{-15}~\mathrm{V}^2/\mathrm{Hz}} = 100~\mathrm{Hz}$$.
 
 ### ADC RAW Data for Several Input Configurations
