@@ -241,7 +241,7 @@ where $i=0$ and $i=-1$ refer to white noise and $1/f$ flicker noise, respectivel
 were found.
 
 
-This results in a $1/f$ corner frequency of $f_{\mathrm{c}} = b_{-1}/b_0 = 100~\mathrm{Hz}$.
+This results in a $1/f$ corner frequency of $f_{\mathrm{c}} = b_{-1}/b_0 = 100~\mathrm{Hz}$. The white voltage noise density is equal to $\sqrt{b_0} = 36~\mathrm{nV}/\sqrt{\mathrm{Hz}}$.
 
 
 ### ADC RAW Data for Several Input Configurations
