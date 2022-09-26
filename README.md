@@ -233,8 +233,8 @@ The two differential inputs of each channel were connected via <a href="https://
 
 Obviously, the lowest interference occurs in grounded mode and when GND of the backplane is directly connected to the chassis/the protective earth connector of the power entry module (first plot).
 
-This measurement result is therefore essential for the further development of the preamplifier. The gain of the preamplifier must be high enough to be able to neglect the noise from the opamp driver (ADA4945-1) and ADC (AD7768-4) determined here. A useful model for describing the power spectral density of the voltage noise $PSD(f)$ is the polynomial law
-$$ PSD(f) = \sum_{i=-1}^0 b_i f^i $$
+This measurement result is therefore essential for the further development of the preamplifier. The gain of the preamplifier must be high enough to be able to neglect the noise from the opamp driver (ADA4945-1) and ADC (AD7768-4) determined here. A useful model for describing the power spectral density of the voltage noise $PSD(f)$ is the polynomial law 
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 where $i=0$ and $i=-1$ refer to white noise and $1/f$ flicker noise, respectively.
 
 ### ADC RAW Data for Several Input Configurations
