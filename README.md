@@ -235,14 +235,14 @@ Obviously, the lowest interference occurs in grounded mode and when GND of the b
 
 ### Input Noise of Differential Opamp Driver and ADC
 
-The measurement result from above is essential for the further development of the preamplifier. The gain of the preamplifier must be high enough to be able to neglect the noise from the opamp driver (ADA4945-1) and ADC (AD7768-4) determined here. A useful model for describing the power spectral density of the voltage noise $PSD(f)$ is the polynomial law 
-$$PSD(f) = \sum_{i=-1}^{0} b_i f^i$$ 
-where $i=0$ and $i=-1$ refer to white noise and $1/f$ flicker noise, respectively. For this measurement, values of
+The measurement result from above is essential for the further development of the preamplifier. The gain of the preamplifier must be high enough to be able to neglect the noise from the opamp driver (ADA4945-1) and ADC (AD7768-4) determined here. A useful model for describing the power spectral density of the voltage noise $PSD(f)$ (in units of $\mathrm{V}^2/\mathrm{Hz}$) is the polynomial law 
+$$\mathrm{PSD}(f) = \mathrm{LSD}^2(f) = \sum_{i=-1}^{0} b_i f^i$$ 
+where $i=0$ and $i=-1$ refer to white noise and $1/f$ flicker noise, respectively, and $\mathrm{LSD}(f)$ referes to the linear spectrum density (in units of $\mathrm{V}/\sqrt{\mathrm{Hz}}$). For this measurement, values of
 - $b_{-1} = 1.3 \cdot 10^{-13}~\mathrm{V}^2$
 - $b_0 = {1.3 \cdot 10^{-15}~\mathrm{V}^2/\mathrm{Hz}}$
 were found.
 
-This results in a $1/f$ corner frequency of $f_{\mathrm{c}} = b_{-1}/b_0 = 100~\mathrm{Hz}$. The white voltage noise density is equal to $\sqrt{b_0} = 36~\mathrm{nV}/\sqrt{\mathrm{Hz}}$. Based on the two time domain noise signals RMS noise values of $13.2~\mu\mathrm{V}$ (channel 1) and $13.5~\mu\mathrm{V}$ (channel 2) were determined after substracting the offsets of $-6.5~\mathrm{mV}$ and $-1.8~\mathrm{mV}$.
+This results in a $1/f$ corner frequency of $f_{\mathrm{c}} = b_{-1}/b_0 = 100~\mathrm{Hz}$. The white voltage noise density is equal to $\sqrt{b_0} = 36~\mathrm{nV}/\sqrt{\mathrm{Hz}}$. Based on the two time domain noise signals RMS noise values of $13.2~\mu\mathrm{V}$ (channel 1) and $13.5~\mu\mathrm{V}$ (channel 2) were determined after substracting the DC offsets of $-6.5~\mathrm{mV}$ and $-1.8~\mathrm{mV}$.
 
 The determined RMS noise values are in good agreement with the value of $11.58~\mu\mathrm{V}$ given in the datasheet.
 
