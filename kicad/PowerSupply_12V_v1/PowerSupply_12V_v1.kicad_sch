@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "700d79c3-2cc5-41a4-8b59-1175e4612386")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.4 25.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c92d9576-5a7f-43f6-8814-8b66efe65ab1")
+		(property "Sheetname" "PowerSupply_12V_v1_1"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply_12V_v1_1.kicad_sch"
+			(at 25.4 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerSupply_12V_v1"
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d47d20bf-ba06-4340-9d0a-2ab653fed2fb")
+		(property "Sheetname" "PowerSupply_12V_v1_3"
+			(at 127 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply_12V_v1_3.kicad_sch"
+			(at 127 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerSupply_12V_v1"
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef6f5013-d9c6-455b-b120-715f04cd630a")
+		(property "Sheetname" "PowerSupply_12V_v1_2"
+			(at 76.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupply_12V_v1_2.kicad_sch"
+			(at 76.2 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerSupply_12V_v1"
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

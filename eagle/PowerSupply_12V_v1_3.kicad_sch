@@ -1,0 +1,9968 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c211f14c-3dce-4985-9795-e1e2fcf7389b")
+	(paper "User" 425.45 331.826)
+	(lib_symbols
+		(symbol "PowerSupply_12V_v1-eagle-import:+12V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#P+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -5.08 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_1_0"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.635) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "+12V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:-12V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#P-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-12V_1_0"
+				(polyline
+					(pts
+						(xy -1.27 1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "-12V"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:0031.8201"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at -7.62 2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 7.62 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify right top)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:0031.8201"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0031.8201_1_0"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy 5.08 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy -5.08 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:113-314-04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 8.636 -4.572 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 10.795 -4.572 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:113-314-04"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "113-314-04_1_0"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -7.62) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.429 2.159) (xy -3.048 1.27) (xy -2.54 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 3.302) (xy -2.921 2.413) (xy -2.413 2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy -3.429 -2.159)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy -5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 7.62)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 7.62)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:A3L-LOC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FRAME"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FRAME\n\nDIN A3, landscape with location and doc. field"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "A3L-LOC_1_0"
+				(polyline
+					(pts
+						(xy 0 260.35) (xy 387.35 260.35) (xy 387.35 0) (xy 0 0) (xy 0 260.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 208.28) (xy 3.81 208.28)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 156.21) (xy 3.81 156.21)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 104.14) (xy 3.81 104.14)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 52.07) (xy 3.81 52.07)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 256.54) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.4188 260.35) (xy 48.4188 256.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.4188 3.81) (xy 48.4188 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 96.8375 260.35) (xy 96.8375 256.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 96.8375 3.81) (xy 96.8375 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 145.2563 260.35) (xy 145.2563 256.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 145.2563 3.81) (xy 145.2563 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 193.675 260.35) (xy 193.675 256.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 193.675 3.81) (xy 193.675 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 242.0938 260.35) (xy 242.0938 256.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 242.0938 3.81) (xy 242.0938 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 288.29 24.13) (xy 342.265 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 288.29 3.81) (xy 288.29 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 288.29 3.81) (xy 342.265 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 290.5125 260.35) (xy 290.5125 256.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 290.5125 3.81) (xy 290.5125 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 338.9313 260.35) (xy 338.9313 256.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 338.9313 3.81) (xy 338.9313 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 24.13) (xy 383.54 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 19.05) (xy 342.265 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 19.05) (xy 383.54 19.05)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 13.97) (xy 342.265 19.05)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 13.97) (xy 383.54 13.97)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 8.89) (xy 342.265 13.97)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 8.89) (xy 342.265 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 3.81) (xy 373.38 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 373.38 8.89) (xy 342.265 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 373.38 8.89) (xy 383.54 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 373.38 3.81) (xy 373.38 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 373.38 3.81) (xy 383.54 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 256.54) (xy 3.81 256.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 256.54) (xy 383.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 208.28) (xy 387.35 208.28)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 156.21) (xy 387.35 156.21)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 104.14) (xy 387.35 104.14)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 52.07) (xy 387.35 52.07)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 19.05) (xy 383.54 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 13.97) (xy 383.54 19.05)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 8.89) (xy 383.54 13.97)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 3.81) (xy 383.54 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "A"
+					(at 1.905 234.315 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "B"
+					(at 1.905 182.245 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "C"
+					(at 1.905 130.175 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "D"
+					(at 1.905 78.105 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "E"
+					(at 1.905 26.035 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "1"
+					(at 24.2094 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "1"
+					(at 24.2094 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "2"
+					(at 72.6281 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "2"
+					(at 72.6281 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "3"
+					(at 121.0469 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "3"
+					(at 121.0469 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "4"
+					(at 169.4656 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "4"
+					(at 169.4656 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "5"
+					(at 217.8844 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "5"
+					(at 217.8844 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "6"
+					(at 266.3031 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "6"
+					(at 266.3031 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "7"
+					(at 314.7219 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "7"
+					(at 314.7219 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "Sheet:"
+					(at 343.916 4.953 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${PROJECTNAME}"
+					(at 344.17 15.24 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${CURRENT_DATE}"
+					(at 344.17 10.16 0)
+					(effects
+						(font
+							(size 2.286 1.9431)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${#}/${##}"
+					(at 357.505 5.08 0)
+					(effects
+						(font
+							(size 2.54 2.159)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "8"
+					(at 363.1406 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "8"
+					(at 363.1406 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "A"
+					(at 385.445 234.315 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "B"
+					(at 385.445 182.245 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "C"
+					(at 385.445 130.175 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "D"
+					(at 385.445 78.105 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "E"
+					(at 385.445 26.035 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:C-EUC0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:C0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC0603_1_0"
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:C-EUC1808"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:C1808"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC1808_1_0"
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:CPOL-EU153CLV-0505"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.143 0.4826 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.143 -4.5974 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:153CLV-0505"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "POLARIZED CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CPOL-EU153CLV-0505_1_0"
+				(rectangle
+					(start -1.651 -2.54)
+					(end 1.651 -1.651)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.524 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.889) (xy 1.524 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.889) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -0.5842 0.4064 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:CPOL-EU153CLV-0810"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.143 0.4826 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.143 -4.5974 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:153CLV-0810"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "POLARIZED CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CPOL-EU153CLV-0810_1_0"
+				(rectangle
+					(start -1.651 -2.54)
+					(end 1.651 -1.651)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.524 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.889) (xy 1.524 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.889) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -0.5842 0.4064 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:EEUHD1E103"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 1.143 0.4826 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.143 -4.5974 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:EEUHD1E103"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "EEUHD1E103_1_0"
+				(rectangle
+					(start -1.651 -2.54)
+					(end 1.651 -1.651)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.524 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.889) (xy 1.524 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.889) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at -0.5842 0.4064 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:FK_237_SA_220_O"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:FK_237_SA_220_O"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FK_237_SA_220_O_1_0"
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 15.24 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 5.08) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "HEATSINK"
+					(at 7.62 2.54 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:FL_24-12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at -5.0839 -12.6921 0)
+				(effects
+					(font
+						(size 1.7793 1.5124)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.0813 -15.2427 0)
+				(effects
+					(font
+						(size 1.7784 1.5116)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:FL_24-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FL_24-12_1_0"
+				(circle
+					(center -3.81 6.35)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 -3.81)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 7.62)
+					(mid -1.27 6.35)
+					(end -2.54 5.08)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 5.08)
+					(mid -1.27 3.81)
+					(end -2.54 2.54)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.54)
+					(mid -1.27 1.27)
+					(end -2.54 0)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -1.27 -3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -5.08)
+					(mid -1.27 -6.35)
+					(end -2.54 -7.62)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -7.62)
+					(mid -1.27 -8.89)
+					(end -2.54 -10.16)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 7.62) (xy -0.635 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 7.62) (xy 0.635 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 5.08)
+					(mid 1.27 6.35)
+					(end 2.54 7.62)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.54)
+					(mid 1.27 3.81)
+					(end 2.54 5.08)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.27 1.27)
+					(end 2.54 2.54)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -5.08)
+					(mid 1.27 -3.81)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -7.62)
+					(mid 1.27 -6.35)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -10.16)
+					(mid 1.27 -8.89)
+					(end 2.54 -7.62)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 6.35)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -3.81)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "P1"
+					(at -7.62 2.54 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "P2"
+					(at -7.62 -7.62 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "2 x 12 V\n2 x 12 VA"
+					(at 2.54 12.7 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left top)
+					)
+				)
+				(text "S1"
+					(at 7.62 5.08 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify right top)
+					)
+				)
+				(text "S2"
+					(at 7.62 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify right top)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 5.08)
+					(name "P1A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P1A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "P1B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P1B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "P2A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P2A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 5.08)
+					(name "P2B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P2B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 5.08)
+					(name "S1A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "S1A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "S1B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "S1B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "S2A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "S2A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 5.08)
+					(name "S2B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "S2B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:GBJ610"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:GBJ610"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GBJ610_1_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.2766 1.8034)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 2.794) (xy -2.286 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -2.794) (xy -2.286 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.2766 -1.8034) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.7178 4.0386) (xy -1.0668 2.3876)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.7178 -4.0386) (xy -0.9398 -2.2606)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 3.175) (xy -4.064 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 3.175) (xy -2.286 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 3.175) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.175) (xy -4.064 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.175) (xy -2.286 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 1.8034 3.2766)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -1.905 -3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 1.8034 -3.2766)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.286) (xy 2.794 4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -2.286) (xy 2.794 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3622 1.016) (xy 4.1402 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3622 -1.0668) (xy 4.1402 -2.8448)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 1.016 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 2.794 4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 1.016 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.905) (xy 2.794 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 3.175 -1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "L"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "L"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "N"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:LM1085IT-12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at -7.62 5.715 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -7.62 3.175 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:LM1085IT-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM1085IT-12_1_0"
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "GND"
+					(at -2.032 -4.318 0)
+					(effects
+						(font
+							(size 1.524 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:LM2990T-12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at -7.62 -7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -7.62 -10.16 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:LM2990T-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM2990T-12_1_0"
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "GND"
+					(at 2.032 1.778 0)
+					(effects
+						(font
+							(size 1.524 1.2954)
+						)
+						(justify right top)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:R-EU_R0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:R0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-EU_R0603_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy 2.54 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:R-EU_R2010"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:R2010"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-EU_R2010_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy 2.54 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:RSPRO-1MM-TERMINAL-POST-2622034"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 2.54 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 2.54 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:RSPRO-1MM-TERMINAL-POST-2622034"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RSPRO-1MM-TERMINAL-POST-2622034_1_0"
+				(circle
+					(center 0 0)
+					(radius 0.9158)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PowerSupply_12V_v1-eagle-import:RSPRO-SPDT-SLIDE-SWITCH-7347334"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PowerSupply_12V_v1:RSPRO-SPDT-SLIDE-SWITCH-7347334"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RSPRO-SPDT-SLIDE-SWITCH-7347334_1_0"
+				(circle
+					(center -2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0.635)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 3.048 1.8796)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 2.54) (xy 2.794 2.032)
+					)
+					(stroke
+						(width 0.1651)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -2.54) (xy 2.794 -2.032)
+					)
+					(stroke
+						(width 0.1651)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0.1651)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 2.54) (xy 2.921 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0.1651)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -2.54) (xy 2.921 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.048 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.048 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "NO"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "pd, 2022"
+		(exclude_from_sim no)
+		(at 309.88 287.02 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fe2e132-93d3-43ee-9931-d19b3100a139")
+	)
+	(text "POWER SUPPLY +/-12 V"
+		(exclude_from_sim no)
+		(at 309.88 276.86 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "391d94f6-d98f-4388-955a-a741610d7a21")
+	)
+	(text "500mA"
+		(exclude_from_sim no)
+		(at 251.46 165.1 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify right bottom)
+		)
+		(uuid "54cd3c02-40cc-4f0c-b486-9ac03728811b")
+	)
+	(text "pd"
+		(exclude_from_sim no)
+		(at 393.7 289.56 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c945640-6b5f-492f-9eed-0a804563bcb5")
+	)
+	(text "github.com/yildi1337"
+		(exclude_from_sim no)
+		(at 398.78 271.78 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify right top)
+		)
+		(uuid "928d0cf3-4a58-45d8-89f1-af2d741a9631")
+	)
+	(text "6 x EEUHD1E103"
+		(exclude_from_sim no)
+		(at 193.04 83.82 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4f69fe0-3ad1-4bb2-aac7-23ccf4369b7d")
+	)
+	(text "4 x 1808AC103KAT2A"
+		(exclude_from_sim no)
+		(at 137.16 68.58 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "de1f017f-215a-4908-9d6f-8b153cd08cd4")
+	)
+	(text "500mA"
+		(exclude_from_sim no)
+		(at 251.46 246.38 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify right bottom)
+		)
+		(uuid "fccffaed-ba19-4860-9508-32129201766e")
+	)
+	(junction
+		(at 139.7 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "000171f7-f349-457c-be04-b5b9b7ea95d2")
+	)
+	(junction
+		(at 147.32 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0203b331-6a40-489e-98c7-342f6c1023d7")
+	)
+	(junction
+		(at 132.08 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "077a21e8-59e6-45a5-a700-263cb4b752c5")
+	)
+	(junction
+		(at 190.5 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bd9133c-d9a6-4d98-b042-ecdccc5951dd")
+	)
+	(junction
+		(at 210.82 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12817351-93da-4d36-a72e-e73ee993c55c")
+	)
+	(junction
+		(at 63.5 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "134f3ca8-f8c3-45e8-a00a-11f33a94816f")
+	)
+	(junction
+		(at 205.74 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22f1fda3-fd46-4701-a46d-0d05eaa8982b")
+	)
+	(junction
+		(at 109.22 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33d786d8-a832-426f-a2cf-3c4ef8693a8b")
+	)
+	(junction
+		(at 101.6 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "461de00f-625f-4501-9a21-64aa8596ecb8")
+	)
+	(junction
+		(at 271.78 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b75dbb9-1b50-4a99-8083-30dbfaef4232")
+	)
+	(junction
+		(at 63.5 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b3b75dc-fa67-473c-8d91-5e5217d07cde")
+	)
+	(junction
+		(at 147.32 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7426bfcf-84b8-48c4-91f0-d7a7d8464dab")
+	)
+	(junction
+		(at 193.04 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75c8e28f-cc76-4bb1-9a90-984186e633d7")
+	)
+	(junction
+		(at 228.6 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d14beef-2440-4e54-afe1-18d0ca8730c9")
+	)
+	(junction
+		(at 210.82 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d9f16be-c6d8-4aec-8f72-85880402c19f")
+	)
+	(junction
+		(at 205.74 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f63c8ad-a77b-4f8b-a1f0-f3161e546b82")
+	)
+	(junction
+		(at 139.7 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80ed3a06-ab52-478c-bba4-249a6d164a80")
+	)
+	(junction
+		(at 210.82 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8213862f-496d-4aad-891c-09b7fcc6d193")
+	)
+	(junction
+		(at 193.04 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82e5e9bf-8d32-47bc-a6a0-000b42450de5")
+	)
+	(junction
+		(at 228.6 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88105a86-6a4f-4291-85a2-bd5b41b6c21f")
+	)
+	(junction
+		(at 132.08 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bdc9f5f-b1db-4f14-9425-b7a63bf555bb")
+	)
+	(junction
+		(at 228.6 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c97a754-e05e-45ba-bc40-3863b554c673")
+	)
+	(junction
+		(at 162.56 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aae3b55c-3bf4-48b1-84b1-b59af97851f7")
+	)
+	(junction
+		(at 124.46 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add2b706-8803-4904-accf-5ccaf0fcc1c8")
+	)
+	(junction
+		(at 193.04 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b557e0bd-c8d4-4bbe-8255-8a8ef31f1408")
+	)
+	(junction
+		(at 109.22 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6e57652-ff06-4785-8881-eb5ea2bd8335")
+	)
+	(junction
+		(at 271.78 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bac6c5f8-2cf3-491b-aef4-20a4e7207440")
+	)
+	(junction
+		(at 96.52 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bda90eaa-60a4-499c-ae0a-3f25bc894eac")
+	)
+	(junction
+		(at 93.98 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c877d606-5657-4e21-9b41-815aee038993")
+	)
+	(junction
+		(at 132.08 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d687d9a0-39c0-49dd-aeb4-d506769780cb")
+	)
+	(junction
+		(at 190.5 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da2216fd-fab5-42ce-9f1d-92a05062b632")
+	)
+	(junction
+		(at 124.46 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5e2cc85-b199-479b-b8be-a35d5d438e8c")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 162.56 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "025fbff4-948f-4a4b-8873-c5b4eaddc50f")
+	)
+	(wire
+		(pts
+			(xy 88.9 175.26) (xy 109.22 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "03701421-175b-468d-a94f-570d22985235")
+	)
+	(wire
+		(pts
+			(xy 68.58 86.36) (xy 71.12 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "03e90e09-a51e-4bb8-bc9c-bac50b52c614")
+	)
+	(wire
+		(pts
+			(xy 165.1 198.12) (xy 165.1 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0502dfef-5407-4255-a31e-c4190d69a94a")
+	)
+	(wire
+		(pts
+			(xy 101.6 68.58) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "053c4b20-ed31-4032-9992-0768f01fb069")
+	)
+	(wire
+		(pts
+			(xy 91.44 165.1) (xy 63.5 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0bc13ba0-a29e-4c03-9c44-f2bced0405fa")
+	)
+	(wire
+		(pts
+			(xy 147.32 71.12) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ea24ce4-bb2e-481b-a35a-5cef599dfc64")
+	)
+	(wire
+		(pts
+			(xy 124.46 228.6) (xy 124.46 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0fe3c69f-8d40-4b31-ab64-ec4ff91bc1c7")
+	)
+	(wire
+		(pts
+			(xy 93.98 86.36) (xy 93.98 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "12fe1962-d005-419a-9e07-07543ac3b087")
+	)
+	(wire
+		(pts
+			(xy 147.32 99.06) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "15e4920e-e10c-4023-b834-b0b621395e7c")
+	)
+	(wire
+		(pts
+			(xy 63.5 198.12) (xy 63.5 187.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "16db0cf1-af03-41e1-a632-36a16683ad60")
+	)
+	(wire
+		(pts
+			(xy 185.42 106.68) (xy 185.42 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "19872c97-b97f-4b51-b4b2-9467a474e609")
+	)
+	(wire
+		(pts
+			(xy 139.7 228.6) (xy 139.7 218.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1a062217-b435-4ee8-90e7-6a932ce31dd3")
+	)
+	(wire
+		(pts
+			(xy 91.44 251.46) (xy 63.5 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1bd7b0da-1e6d-4770-8da5-8476ff361c36")
+	)
+	(wire
+		(pts
+			(xy 175.26 167.64) (xy 190.5 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ce4cd4d-e5b8-4a0d-b74d-20cac62e1187")
+	)
+	(wire
+		(pts
+			(xy 228.6 121.92) (xy 248.92 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1e1b398a-0d05-4957-8d3d-b8696e0a4dfc")
+	)
+	(wire
+		(pts
+			(xy 147.32 96.52) (xy 147.32 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1e340997-0452-4344-bcc2-464c547daa9d")
+	)
+	(wire
+		(pts
+			(xy 91.44 246.38) (xy 88.9 246.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1f8232e6-c08b-4416-975f-d326014c0558")
+	)
+	(wire
+		(pts
+			(xy 86.36 86.36) (xy 93.98 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "217c28d0-fcbc-4a6c-8e2f-bd13657a6b65")
+	)
+	(wire
+		(pts
+			(xy 139.7 167.64) (xy 154.94 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "21a9ae90-8274-43ee-98cc-4bf4fbad467e")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "221330d3-e989-47fd-b584-68951d5575c6")
+	)
+	(wire
+		(pts
+			(xy 210.82 104.14) (xy 210.82 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "231aef7f-b21f-49d2-ba11-afb91f2157eb")
+	)
+	(wire
+		(pts
+			(xy 124.46 167.64) (xy 139.7 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "23d53c0c-2d7c-4661-8a1c-187843b76b58")
+	)
+	(wire
+		(pts
+			(xy 106.68 248.92) (xy 109.22 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "273f1e86-cbc7-46b5-bce8-f092d6ded47a")
+	)
+	(wire
+		(pts
+			(xy 205.74 180.34) (xy 205.74 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2a91ca26-edcb-4bb8-98fb-5901a7844122")
+	)
+	(wire
+		(pts
+			(xy 190.5 236.22) (xy 190.5 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2c0a5ce2-c1d6-44a1-9a15-79572a4b76c7")
+	)
+	(wire
+		(pts
+			(xy 228.6 121.92) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2c5e6993-f701-4130-b7b0-3d495223c3b0")
+	)
+	(wire
+		(pts
+			(xy 109.22 248.92) (xy 124.46 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2c7044e8-be72-4cce-9454-699769015d7b")
+	)
+	(wire
+		(pts
+			(xy 271.78 167.64) (xy 289.56 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2c7d6abf-7de2-4c36-9cf1-1a8b04f61d39")
+	)
+	(wire
+		(pts
+			(xy 205.74 248.92) (xy 205.74 236.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "30cb0e28-7251-4b72-90ed-c3a2f7b93cb2")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.28) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3294953b-4043-4b18-a94f-2c2d336e0c9d")
+	)
+	(wire
+		(pts
+			(xy 63.5 165.1) (xy 53.34 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3498a4d6-86cf-4b5c-ab56-0e74855cdb22")
+	)
+	(wire
+		(pts
+			(xy 165.1 218.44) (xy 165.1 241.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3499cada-4b0a-47a8-a373-6243e5b4b991")
+	)
+	(wire
+		(pts
+			(xy 175.26 248.92) (xy 190.5 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "38dd6294-6d71-4168-8b6d-c3e39d1240ac")
+	)
+	(wire
+		(pts
+			(xy 289.56 167.64) (xy 289.56 144.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3a27b361-4ecb-45c7-9c6b-40d074af87fc")
+	)
+	(wire
+		(pts
+			(xy 93.98 83.82) (xy 93.98 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3ace4375-710e-43e9-b204-ee9ee56567ac")
+	)
+	(wire
+		(pts
+			(xy 132.08 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3e514ed7-d928-4ec6-8106-64ee0a8eb528")
+	)
+	(wire
+		(pts
+			(xy 139.7 180.34) (xy 139.7 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "403f1c30-9727-4bc7-8d43-38fd4aa08e36")
+	)
+	(wire
+		(pts
+			(xy 91.44 170.18) (xy 88.9 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "420f59ec-e804-4597-aaf7-2e7d15c6271e")
+	)
+	(wire
+		(pts
+			(xy 96.52 68.58) (xy 96.52 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "430c9dbc-f6e4-4d1d-bf3e-aa679c31a32a")
+	)
+	(wire
+		(pts
+			(xy 63.5 251.46) (xy 53.34 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4ce8a3f9-cfe4-45a9-b173-413d4abd3b5f")
+	)
+	(wire
+		(pts
+			(xy 205.74 259.08) (xy 205.74 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "50ee7f09-1f70-49a5-a49d-7fd17d13008c")
+	)
+	(wire
+		(pts
+			(xy 68.58 83.82) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5138a548-9bc8-4319-9cd0-fdfe04c2f5e6")
+	)
+	(wire
+		(pts
+			(xy 139.7 248.92) (xy 154.94 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "52aaf053-e149-4bce-bc84-e8e32201e4b7")
+	)
+	(wire
+		(pts
+			(xy 63.5 238.76) (xy 63.5 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "538fffd4-d327-4453-8ad7-72d39b455176")
+	)
+	(wire
+		(pts
+			(xy 162.56 86.36) (xy 193.04 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "57fa48b7-307c-4329-90f5-2405ce27976f")
+	)
+	(wire
+		(pts
+			(xy 63.5 259.08) (xy 63.5 251.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "582fd6fb-035a-4516-8a60-6551f7d29d64")
+	)
+	(wire
+		(pts
+			(xy 248.92 248.92) (xy 271.78 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "59248ecd-b3d3-4479-912d-77c3bf7c15f3")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.98) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "59995571-cf41-4d69-a593-25769a85418e")
+	)
+	(wire
+		(pts
+			(xy 109.22 167.64) (xy 124.46 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5c4d3985-bf16-4069-8bc5-e796870f3576")
+	)
+	(wire
+		(pts
+			(xy 228.6 109.22) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5dc17098-bd50-4c94-a83a-0baec1c74d26")
+	)
+	(wire
+		(pts
+			(xy 190.5 218.44) (xy 190.5 228.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "60e2fe11-12d6-484e-914a-801fcf9868a0")
+	)
+	(wire
+		(pts
+			(xy 228.6 104.14) (xy 228.6 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "62abaa76-a098-4181-90d1-9d67434133d0")
+	)
+	(wire
+		(pts
+			(xy 106.68 167.64) (xy 109.22 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "676e15e5-e127-4a77-aeb6-b96a88def138")
+	)
+	(wire
+		(pts
+			(xy 162.56 81.28) (xy 162.56 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6872d465-ed20-47ce-bf4c-47c19d715942")
+	)
+	(wire
+		(pts
+			(xy 205.74 198.12) (xy 205.74 187.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6961cfc7-c06f-4898-9508-e99b397619c8")
+	)
+	(wire
+		(pts
+			(xy 193.04 116.84) (xy 193.04 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6a0f33cc-ab7d-4c78-ba1b-1c8b5cdc3434")
+	)
+	(wire
+		(pts
+			(xy 124.46 248.92) (xy 139.7 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b431315-6bb4-44cf-b787-a11387f762b8")
+	)
+	(wire
+		(pts
+			(xy 124.46 180.34) (xy 124.46 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b8096ca-45da-4cd0-94f1-482e0fb4a799")
+	)
+	(wire
+		(pts
+			(xy 88.9 241.3) (xy 109.22 241.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6c30bed9-cfcf-4823-a584-5fcd2250aff6")
+	)
+	(wire
+		(pts
+			(xy 193.04 104.14) (xy 210.82 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "748dd1a2-6d2f-450d-b731-e446191d7028")
+	)
+	(wire
+		(pts
+			(xy 210.82 116.84) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "76fdd152-d5fd-4bb9-9f17-bafe0aa6213e")
+	)
+	(wire
+		(pts
+			(xy 88.9 246.38) (xy 88.9 241.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "79a6e42f-b7e6-4e1e-b69c-b8f7d93bb5fe")
+	)
+	(wire
+		(pts
+			(xy 124.46 248.92) (xy 124.46 236.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "836b12ec-7151-4868-b1ce-4c748d9b968b")
+	)
+	(wire
+		(pts
+			(xy 116.84 86.36) (xy 116.84 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "84d83213-3d10-476a-9ac0-8a57595d043f")
+	)
+	(wire
+		(pts
+			(xy 86.36 76.2) (xy 96.52 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "86022b9e-c9ee-478f-9785-a56b4b7a9ce9")
+	)
+	(wire
+		(pts
+			(xy 228.6 167.64) (xy 205.74 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "86236399-cdcd-4887-8ccc-8a7d96b813d2")
+	)
+	(wire
+		(pts
+			(xy 86.36 93.98) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "86fa530c-54b2-4f0a-8927-0ea2bc5170f4")
+	)
+	(wire
+		(pts
+			(xy 193.04 99.06) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "87740304-aff8-42fe-abcd-a2d575f5ed0e")
+	)
+	(wire
+		(pts
+			(xy 190.5 167.64) (xy 205.74 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c45e30a-7b7f-4db4-a956-05284108f9a1")
+	)
+	(wire
+		(pts
+			(xy 132.08 86.36) (xy 116.84 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8e56983f-55f3-4133-a405-710f8a9aaf0a")
+	)
+	(wire
+		(pts
+			(xy 228.6 116.84) (xy 228.6 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8ed5629a-992f-41b9-a702-cf19f119db12")
+	)
+	(wire
+		(pts
+			(xy 86.36 83.82) (xy 93.98 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9126593d-a5fd-411d-9917-0b33410380a7")
+	)
+	(wire
+		(pts
+			(xy 210.82 91.44) (xy 210.82 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "912cf0d0-d9e9-4659-bfe2-b59f8a8bb684")
+	)
+	(wire
+		(pts
+			(xy 109.22 99.06) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "92a1b99c-dde0-4db1-9a09-fc2045021b0c")
+	)
+	(wire
+		(pts
+			(xy 271.78 246.38) (xy 271.78 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "94781d86-787e-4567-827f-dfa9a7cd035b")
+	)
+	(wire
+		(pts
+			(xy 210.82 104.14) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9518c31f-785a-4a6a-b4e6-0c9b054d1169")
+	)
+	(wire
+		(pts
+			(xy 271.78 248.92) (xy 289.56 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "95569078-b7ea-4d8b-9348-26c8d50e01d3")
+	)
+	(wire
+		(pts
+			(xy 193.04 91.44) (xy 193.04 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "96069ee7-8f41-4224-b04f-85791179cb4c")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 147.32 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "96d917cb-4a24-42cd-b27b-91c66b0afcdf")
+	)
+	(wire
+		(pts
+			(xy 124.46 198.12) (xy 124.46 187.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9a4fd3fc-9f5e-4fa0-bcc4-04d315a97e6a")
+	)
+	(wire
+		(pts
+			(xy 248.92 167.64) (xy 271.78 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9da66367-38a1-4fdd-a030-d57c11a639ad")
+	)
+	(wire
+		(pts
+			(xy 210.82 109.22) (xy 210.82 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9dd4f451-184d-4169-a594-72c6e6d6ce1a")
+	)
+	(wire
+		(pts
+			(xy 71.12 76.2) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9e97ab6e-806d-40b2-a322-b6ea3bf19236")
+	)
+	(wire
+		(pts
+			(xy 63.5 157.48) (xy 63.5 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9f86ce18-d94b-495b-81a3-d3ad6708f30b")
+	)
+	(wire
+		(pts
+			(xy 205.74 157.48) (xy 205.74 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a11777ac-561a-46a9-be68-b273ceedb090")
+	)
+	(wire
+		(pts
+			(xy 228.6 86.36) (xy 210.82 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a99a30d1-9ba6-4707-9767-e20f71cd12a7")
+	)
+	(wire
+		(pts
+			(xy 193.04 121.92) (xy 116.84 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae7d6f36-af44-4a8a-9369-f5b79f6e5155")
+	)
+	(wire
+		(pts
+			(xy 190.5 198.12) (xy 190.5 187.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b20698b3-1ec5-4368-8210-1bf4f29d254d")
+	)
+	(wire
+		(pts
+			(xy 96.52 76.2) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b2fd9780-125e-4adb-b76b-431640fffac1")
+	)
+	(wire
+		(pts
+			(xy 132.08 88.9) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b7822ff9-0601-44bd-a2b3-d300e8def3b0")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.12) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b7f1192a-a396-4b3a-8c6a-14cb68acb909")
+	)
+	(wire
+		(pts
+			(xy 101.6 93.98) (xy 109.22 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b882de67-fce0-44ad-ba6f-383cc6a61ebd")
+	)
+	(wire
+		(pts
+			(xy 137.16 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bbae5f45-3857-41ee-8eb6-593ec5666aaa")
+	)
+	(wire
+		(pts
+			(xy 63.5 177.8) (xy 63.5 165.1)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bd7bba5e-c865-468f-9af1-c3b9b6cc076e")
+	)
+	(wire
+		(pts
+			(xy 109.22 241.3) (xy 109.22 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bdc4066d-f7e2-48bd-bcdf-4f67d3f44002")
+	)
+	(wire
+		(pts
+			(xy 205.74 248.92) (xy 228.6 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c406daaa-ece0-48a4-a31c-1a529def9063")
+	)
+	(wire
+		(pts
+			(xy 139.7 236.22) (xy 139.7 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c428637c-fb47-4e9d-b734-1e819f97d0f3")
+	)
+	(wire
+		(pts
+			(xy 228.6 86.36) (xy 248.92 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c4e90ae1-9e5e-4364-9eb8-9ce3beadf3cb")
+	)
+	(wire
+		(pts
+			(xy 109.22 175.26) (xy 109.22 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c56aa27b-0058-467a-9513-cb59fa8e0ad6")
+	)
+	(wire
+		(pts
+			(xy 190.5 180.34) (xy 190.5 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c582e7a1-606a-48d1-851c-ef25298a61c6")
+	)
+	(wire
+		(pts
+			(xy 63.5 218.44) (xy 63.5 228.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c6556ad8-d735-4571-aa75-746c645d7edc")
+	)
+	(wire
+		(pts
+			(xy 139.7 198.12) (xy 139.7 187.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c801a353-95be-434f-9554-d9c51fdc722e")
+	)
+	(wire
+		(pts
+			(xy 289.56 248.92) (xy 289.56 271.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ca0fa7a3-98b9-4be3-b534-9f1611ff16ee")
+	)
+	(wire
+		(pts
+			(xy 205.74 218.44) (xy 205.74 228.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cb39d3a0-43fc-4803-81e4-3ba9914e0048")
+	)
+	(wire
+		(pts
+			(xy 71.12 83.82) (xy 68.58 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cbfe1091-b0b5-4c48-a473-04fcc0c4cf05")
+	)
+	(wire
+		(pts
+			(xy 71.12 93.98) (xy 48.26 93.98)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cc710ec3-5b40-46a3-b4fd-0d7a2084d2b4")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 162.56 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cc9d01b9-b3c7-4987-95f8-21da7d382134")
+	)
+	(wire
+		(pts
+			(xy 132.08 96.52) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d645c053-a316-491c-bb5f-2c32cbf70801")
+	)
+	(wire
+		(pts
+			(xy 228.6 91.44) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d8f40c88-acaf-470e-9ac0-5ad10526603a")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dd2c8378-8573-4d06-b893-7942d7d0f5b3")
+	)
+	(wire
+		(pts
+			(xy 157.48 86.36) (xy 162.56 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e4741771-8671-424e-ba18-aa4b7d6090f5")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e7c8026d-853d-4e1d-8d39-07c93f7d9a38")
+	)
+	(wire
+		(pts
+			(xy 271.78 170.18) (xy 271.78 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e9d88dbc-9060-43f7-819a-98b5464b1e87")
+	)
+	(wire
+		(pts
+			(xy 190.5 248.92) (xy 205.74 248.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eae227c4-17ce-43b4-a2bf-b14a3f766a00")
+	)
+	(wire
+		(pts
+			(xy 185.42 104.14) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ebe13e9f-e72d-413e-abc8-accba5100942")
+	)
+	(wire
+		(pts
+			(xy 162.56 96.52) (xy 162.56 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ec327fb1-9367-448c-8fb2-b680f41ed460")
+	)
+	(wire
+		(pts
+			(xy 193.04 109.22) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f63aa951-6978-44f9-b5e7-0fffded9341a")
+	)
+	(wire
+		(pts
+			(xy 210.82 121.92) (xy 193.04 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f850dfdf-9617-4870-9c0c-8bd52a28b34d")
+	)
+	(wire
+		(pts
+			(xy 88.9 170.18) (xy 88.9 175.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fbb08a93-a5fe-41eb-b3e2-6b8c2a734806")
+	)
+	(wire
+		(pts
+			(xy 210.82 86.36) (xy 193.04 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fdace65b-cd6b-486e-9b49-9018f2357c49")
+	)
+	(label "RECT_OUT+"
+		(at 248.92 86.36 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "562403eb-9e8d-432c-8a6f-574e7cc2b593")
+	)
+	(label "RECT_OUT-"
+		(at 248.92 121.92 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4a44364-6aff-41dc-876d-5ef5d071ae69")
+	)
+	(label "RECT_OUT-"
+		(at 53.34 251.46 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9fabadb-3fd4-4eb9-b9b3-fe89875feaba")
+	)
+	(label "RECT_OUT+"
+		(at 53.34 165.1 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9e0f18e-c51d-4d9a-b5a8-45419d288a30")
+	)
+	(global_label "L"
+		(shape bidirectional)
+		(at 48.26 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "2dcd66f6-f751-4426-8524-a49d1870e646")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.2383 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "N"
+		(shape bidirectional)
+		(at 48.26 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "570dca90-7b8e-492d-996d-39f2ad520b7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.9419 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:R-EU_R0603")
+		(at 271.78 241.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00d227ca-759d-4e8e-96d3-bd85786fb3f9")
+		(property "Reference" "R4"
+			(at 270.2814 245.11 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "680"
+			(at 275.082 245.11 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:R0603"
+			(at 271.78 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "716fa55e-7c15-4a53-9027-f3506546a36a")
+		)
+		(pin "2"
+			(uuid "2d7c08e0-d2dc-4dca-a391-c9698ed7fa29")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:-12V")
+		(at 289.56 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0216908a-b1b9-4b92-a597-8ae46e05b132")
+		(property "Reference" "#P-2"
+			(at 289.56 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 287.02 276.86 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87bf648a-dbcd-4540-895f-664f3226e247")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#P-2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 165.1 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "070401c0-05fd-4ee6-a54c-7396db1b204e")
+		(property "Reference" "#GND14"
+			(at 165.1 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 203.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4797513d-6935-4e5d-b9cb-42b4911e43a0")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:CPOL-EU153CLV-0505")
+		(at 124.46 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b8d1a2a-36a5-4cb1-84f6-7af2940e81a4")
+		(property "Reference" "C11"
+			(at 125.603 182.3974 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22u/25V"
+			(at 125.603 187.4774 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:153CLV-0505"
+			(at 124.46 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "3ae120f0-9cc2-457f-a894-76a2096b36ff")
+		)
+		(pin "-"
+			(uuid "f53ebe01-ca06-4772-9543-4dcbf96aae80")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:113-314-04")
+		(at 271.78 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "117b696b-48fc-425e-bc08-04c4357e9b72")
+		(property "Reference" "LED_-12V_OK0"
+			(at 280.416 230.632 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "113-314-04"
+			(at 282.575 230.632 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:113-314-04"
+			(at 271.78 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "299bea2f-b898-4c5e-bd3e-e71a48c11af6")
+		)
+		(pin "-"
+			(uuid "6455cf89-bd1c-4779-9fb2-c8ea1b885509")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "LED_-12V_OK0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:C-EUC0603")
+		(at 205.74 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14c0d357-0271-4d41-b3b2-f9f06f273735")
+		(property "Reference" "C14"
+			(at 207.264 182.499 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 207.264 187.579 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:C0603"
+			(at 205.74 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e924bab2-374b-4463-804b-9cbb9c62c9bf")
+		)
+		(pin "2"
+			(uuid "0fc8f690-391f-4384-8610-461f0eeaa5d8")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 124.46 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c406bff-2009-4d67-a941-9fa2b6b8d5c9")
+		(property "Reference" "#GND7"
+			(at 124.46 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 213.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b41dd2ae-e6d9-407d-afae-f1af50ff8190")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:RSPRO-1MM-TERMINAL-POST-2622034")
+		(at 63.5 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e8db28d-1329-4bf9-8890-3dc5abc0a47f")
+		(property "Reference" "TP_RECT_OUT+0"
+			(at 63.5 152.4 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RSPRO-1MM-TERMINAL-POST-2622034"
+			(at 66.04 152.4 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:RSPRO-1MM-TERMINAL-POST-2622034"
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "ee155a80-6db3-4e88-a758-33bb94b399c0")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "TP_RECT_OUT+0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 271.78 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "363840d3-ffce-4036-af77-2c06e9de0628")
+		(property "Reference" "#GND15"
+			(at 271.78 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 203.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22c71cec-2411-476a-a87c-985b01e76a9d")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:LM1085IT-12")
+		(at 165.1 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3649de65-3b20-41cf-ad1c-bebb81e75326")
+		(property "Reference" "IC1"
+			(at 157.48 161.925 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LM1085IT-12"
+			(at 157.48 164.465 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:LM1085IT-12"
+			(at 165.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "73bc0b11-f407-437e-bd15-701b1ab957db")
+		)
+		(pin "1"
+			(uuid "59e1ebbe-4500-4fc3-b201-75262a495da4")
+		)
+		(pin "2"
+			(uuid "6d6d56aa-bf86-4c9e-9f3e-4b4aec38cc52")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:A3L-LOC")
+		(at 17.78 294.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "370f66b6-50ca-4fe8-a172-985c814bfb28")
+		(property "Reference" "#FRAME3"
+			(at 17.78 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "A3L-LOC"
+			(at 17.78 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#FRAME3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:RSPRO-SPDT-SLIDE-SWITCH-7347334")
+		(at 99.06 167.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b01efd0-278d-46d6-8e8a-c7c5f4aabcae")
+		(property "Reference" "SWITCH_+12V0"
+			(at 99.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "RSPRO-SPDT-SLIDE-SWITCH-7347334"
+			(at 109.22 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:RSPRO-SPDT-SLIDE-SWITCH-7347334"
+			(at 99.06 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1cb3d699-4840-4271-8292-d265357b0460")
+		)
+		(pin "1"
+			(uuid "81ccdb81-b9a1-4605-b3fd-4a08fcefa307")
+		)
+		(pin "3"
+			(uuid "43c188b1-3078-4fe2-a4e2-d01debd17e1a")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "SWITCH_+12V0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:EEUHD1E103")
+		(at 228.6 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d5ad268-bf25-4481-9ccc-45fb3564b8e4")
+		(property "Reference" "C7"
+			(at 229.743 93.4974 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10000u/25V"
+			(at 229.743 98.5774 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:EEUHD1E103"
+			(at 228.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "9f1de362-bde7-440d-94a6-039170c4954d")
+		)
+		(pin "-"
+			(uuid "d87ded41-c25b-4529-8f00-279c8c447566")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:R-EU_R2010")
+		(at 63.5 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ec7a576-bcdf-43da-8bbc-84ec9df2676c")
+		(property "Reference" "R3"
+			(at 62.0014 237.49 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "360/2W"
+			(at 66.802 237.49 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:R2010"
+			(at 63.5 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "049e7d84-f65e-4477-8908-8532f7f3f160")
+		)
+		(pin "2"
+			(uuid "f889c579-45f6-4911-a38c-b460722b3300")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 139.7 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4040cb6e-c3f4-4195-8534-2cc0f2aa83bf")
+		(property "Reference" "#GND8"
+			(at 139.7 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 213.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94c7f4bc-4f05-467b-a1d8-aa65bedd033e")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:RSPRO-1MM-TERMINAL-POST-2622034")
+		(at 63.5 261.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42a4bba3-b6b5-4af4-b3f9-3e4e958dec69")
+		(property "Reference" "TP_RECT_OUT-0"
+			(at 63.5 264.16 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RSPRO-1MM-TERMINAL-POST-2622034"
+			(at 60.96 264.16 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:RSPRO-1MM-TERMINAL-POST-2622034"
+			(at 63.5 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "639998e7-5cd9-4bb5-9a98-9dd90e115052")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "TP_RECT_OUT-0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:EEUHD1E103")
+		(at 210.82 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4419766a-460b-4584-89c7-ef39ee8b5da7")
+		(property "Reference" "C9"
+			(at 211.963 111.2774 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10000u/25V"
+			(at 211.963 116.3574 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:EEUHD1E103"
+			(at 210.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "19b75a91-ecb5-4e47-be6a-31dc2dcda35a")
+		)
+		(pin "-"
+			(uuid "163dc831-a349-4a03-9676-71211b88722f")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:C-EUC0603")
+		(at 205.74 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e3ab46a-fe54-4604-9dec-ecea049e8e1d")
+		(property "Reference" "C18"
+			(at 207.264 230.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 207.264 235.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:C0603"
+			(at 205.74 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4694695-fe4a-48f3-b1e3-5837e61f5ea9")
+		)
+		(pin "2"
+			(uuid "1e9bde4c-2cc3-4fd6-b82b-2b124c229520")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:CPOL-EU153CLV-0810")
+		(at 190.5 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5069fc2e-cd2a-4dc2-b6b1-cbd21d03d0cd")
+		(property "Reference" "C17"
+			(at 191.643 230.6574 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100u/25V"
+			(at 191.643 235.7374 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:153CLV-0810"
+			(at 190.5 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "87f64431-8254-47c9-9c51-871d176cd886")
+		)
+		(pin "-"
+			(uuid "66f62e78-7e20-42d1-b139-8534c9f38953")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:C-EUC1808")
+		(at 162.56 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53383c5c-d93f-4c99-b385-53739644f709")
+		(property "Reference" "C4"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n/1kV"
+			(at 165.1 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:C1808"
+			(at 162.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48b8871d-fdfb-4505-a2d3-e4380995514f")
+		)
+		(pin "2"
+			(uuid "e2a0d4cb-5827-4f22-abe3-4b57103b27ee")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:C-EUC0603")
+		(at 139.7 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "534da198-b73b-45e9-a0fe-687a9700420d")
+		(property "Reference" "C16"
+			(at 141.224 230.759 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 141.224 235.839 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:C0603"
+			(at 139.7 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2af54825-385e-4824-8916-dc20c46ef058")
+		)
+		(pin "2"
+			(uuid "abded392-a5fa-45f1-806f-702a365b5a30")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 165.1 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54c8c606-0877-495e-a944-141ff6955c76")
+		(property "Reference" "#GND9"
+			(at 165.1 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 213.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06b056ee-1a21-4c76-a818-454432d35d7f")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 271.78 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fa3ff94-1ecb-41c5-9ba1-eef22f780318")
+		(property "Reference" "#GND12"
+			(at 271.78 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 213.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "374d42e6-ffa0-4273-aa75-4d90e28579b0")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:RSPRO-1MM-TERMINAL-POST-2622034")
+		(at 101.6 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68d6f69e-e3a7-429c-9b51-4a11d05823c6")
+		(property "Reference" "TP_TF_SEC_B0"
+			(at 101.6 63.5 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RSPRO-1MM-TERMINAL-POST-2622034"
+			(at 104.14 63.5 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:RSPRO-1MM-TERMINAL-POST-2622034"
+			(at 101.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "97fa43b1-6510-4ebb-b44b-a52a1428393a")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "TP_TF_SEC_B0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:LM2990T-12")
+		(at 165.1 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70b5c1cf-ff19-4be7-a98b-59cd1ccd8da3")
+		(property "Reference" "IC2"
+			(at 157.48 254 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LM2990T-12"
+			(at 157.48 256.54 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:LM2990T-12"
+			(at 165.1 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7188564f-cdfd-4aaa-b996-116eb07e4c5f")
+		)
+		(pin "1"
+			(uuid "810bf95d-8719-425f-b6a7-86e694cbb414")
+		)
+		(pin "3"
+			(uuid "cdcf8066-9eb9-4d60-a4cf-8bdd5f47cbe8")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:0031.8201")
+		(at 238.76 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "756f4799-c72d-4262-85a4-efc517084aa4")
+		(property "Reference" "FUSE_-12V0"
+			(at 226.06 246.38 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0031.8201"
+			(at 246.38 251.46 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:0031.8201"
+			(at 238.76 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "670bb086-85f2-46e7-a5f6-02a17f31f9ed")
+		)
+		(pin "2"
+			(uuid "78313ff3-57a3-40cb-adab-79851c35973d")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "FUSE_-12V0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:RSPRO-1MM-TERMINAL-POST-2622034")
+		(at 205.74 261.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80236487-80b1-4d98-86b9-2e0e3cc92868")
+		(property "Reference" "TP_-12V0"
+			(at 205.74 264.16 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RSPRO-1MM-TERMINAL-POST-2622034"
+			(at 203.2 264.16 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:RSPRO-1MM-TERMINAL-POST-2622034"
+			(at 205.74 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "7ee2aa86-d853-4aac-a0fb-bc28190ce5cc")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "TP_-12V0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:RSPRO-SPDT-SLIDE-SWITCH-7347334")
+		(at 99.06 248.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82fcb157-e9e5-44c5-a9a6-10ae768f6c4a")
+		(property "Reference" "SWITCH_-12V0"
+			(at 99.06 254 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "RSPRO-SPDT-SLIDE-SWITCH-7347334"
+			(at 109.22 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:RSPRO-SPDT-SLIDE-SWITCH-7347334"
+			(at 99.06 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bc6b96c-a40f-4225-8715-cde624c5b731")
+		)
+		(pin "1"
+			(uuid "ffab603f-d99f-4686-915d-dfb68c3a0fa2")
+		)
+		(pin "3"
+			(uuid "84994403-7d5c-4e80-b38c-5173ad2e2cfb")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "SWITCH_-12V0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:RSPRO-1MM-TERMINAL-POST-2622034")
+		(at 96.52 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86fa5d90-3dfa-4e68-9528-4be9634595ff")
+		(property "Reference" "TP_TF_SEC_A0"
+			(at 96.52 63.5 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RSPRO-1MM-TERMINAL-POST-2622034"
+			(at 99.06 63.5 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:RSPRO-1MM-TERMINAL-POST-2622034"
+			(at 96.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "228f5cd4-b65b-429d-8bd5-59be773b2610")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "TP_TF_SEC_A0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 190.5 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8775b96c-3663-4fbb-af58-2b9576b1b0c9")
+		(property "Reference" "#GND18"
+			(at 190.5 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 203.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01841ab5-9f8e-4c0c-b59c-ae44da883556")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 190.5 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f8d1611-b435-4fe3-abb8-f38d47adab7d")
+		(property "Reference" "#GND10"
+			(at 190.5 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 213.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1af7dd4b-df6f-4f3b-adc0-231e9e406b2f")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:0031.8201")
+		(at 238.76 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92b5d5a9-4781-42c3-ba4e-07a0d4042a43")
+		(property "Reference" "FUSE_+12V0"
+			(at 226.06 165.1 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0031.8201"
+			(at 246.38 170.18 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:0031.8201"
+			(at 238.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa6ce5ad-31dc-4c18-b1fb-86e8ef739d66")
+		)
+		(pin "2"
+			(uuid "8a9f6ed4-405c-45dd-add0-f6c709257df5")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "FUSE_+12V0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:FK_237_SA_220_O")
+		(at 157.48 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97ee166d-d9bd-42ff-9b48-b2268a8e148e")
+		(property "Reference" "HS1"
+			(at 157.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FK 237 SA 220 O"
+			(at 157.48 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:FK_237_SA_220_O"
+			(at 157.48 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "HS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:EEUHD1E103")
+		(at 193.04 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98a4cb7f-ec3b-4c07-a930-1648ad73b187")
+		(property "Reference" "C5"
+			(at 194.183 93.4974 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10000u/25V"
+			(at 194.183 98.5774 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:EEUHD1E103"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "5f7c1aff-6aad-41f0-9ada-a51b0b447a7f")
+		)
+		(pin "-"
+			(uuid "ca2db941-d90b-4fef-9796-40dc595319b0")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 139.7 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99ff4626-72ee-426b-b120-bcc831005e74")
+		(property "Reference" "#GND16"
+			(at 139.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 203.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c1519d1-9352-4983-9519-2a37fef16e06")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:C-EUC1808")
+		(at 132.08 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b891a99-8485-440b-bb65-a5e9f2028079")
+		(property "Reference" "C1"
+			(at 134.62 76.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n/1kV"
+			(at 134.62 78.74 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:C1808"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d924f8d-be3a-40a5-b7b3-634d116bee1f")
+		)
+		(pin "2"
+			(uuid "9cbe3fda-18e1-4cd8-a4ef-cbcda9a064bb")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:EEUHD1E103")
+		(at 193.04 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fc8d179-bf47-4692-9c45-fea540f94e46")
+		(property "Reference" "C8"
+			(at 194.183 111.2774 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10000u/25V"
+			(at 194.183 116.3574 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:EEUHD1E103"
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "552e4880-cde2-4a73-8828-41a6cfb3a144")
+		)
+		(pin "-"
+			(uuid "b03c81b2-9b88-4234-9757-d43c7975ba68")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:113-314-04")
+		(at 271.78 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3473370-04d5-45aa-8c4e-e11d34299584")
+		(property "Reference" "LED_+12V_OK0"
+			(at 280.416 192.532 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "113-314-04"
+			(at 282.575 192.532 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:113-314-04"
+			(at 271.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "d8b891b6-455a-47a8-8840-e95e5e33bce8")
+		)
+		(pin "-"
+			(uuid "3ec2c661-d904-4f96-a76e-a037dff5e4a0")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "LED_+12V_OK0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:R-EU_R0603")
+		(at 271.78 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a443e0bd-2f97-4e06-a8f1-2d63c1e0102c")
+		(property "Reference" "R2"
+			(at 270.2814 179.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "680"
+			(at 275.082 179.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:R0603"
+			(at 271.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61e40cff-586d-412a-962e-b2b200c2a807")
+		)
+		(pin "2"
+			(uuid "8d9dc25c-b6be-4515-87da-a288142e40b0")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:FL_24-12")
+		(at 78.74 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a647789f-19a3-4c53-bf6d-a9ba6683fa56")
+		(property "Reference" "TF1"
+			(at 73.656 96.5121 0)
+			(effects
+				(font
+					(size 1.7793 1.5124)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FL 24/12"
+			(at 73.6586 99.0627 0)
+			(effects
+				(font
+					(size 1.7784 1.5116)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:FL_24-12"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P1A"
+			(uuid "8e48cf05-892b-467c-ac1e-3464500f78ee")
+		)
+		(pin "P1B"
+			(uuid "d4060bd0-ee5d-447a-861c-63964ad1b5e8")
+		)
+		(pin "P2A"
+			(uuid "e9bb980b-ef78-496a-ade6-4cb364202726")
+		)
+		(pin "P2B"
+			(uuid "6925b4d0-64d8-4ebf-81f5-d59d900f013d")
+		)
+		(pin "S1A"
+			(uuid "2e138068-4e81-41b8-8929-637602c0b439")
+		)
+		(pin "S1B"
+			(uuid "4f0fa50e-ebe5-4199-abc6-ecc46086721e")
+		)
+		(pin "S2A"
+			(uuid "8bc23994-17f6-4cc0-96b8-4153c6c2e394")
+		)
+		(pin "S2B"
+			(uuid "b58b6c4d-83a8-4235-8429-746870efe997")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "TF1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:CPOL-EU153CLV-0505")
+		(at 124.46 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a713759e-d178-433d-8782-6a70d7909ab2")
+		(property "Reference" "C15"
+			(at 125.603 230.6574 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22u/25V"
+			(at 125.603 235.7374 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:153CLV-0505"
+			(at 124.46 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "34a39c1c-8b19-4b7c-9a93-908f567a35cd")
+		)
+		(pin "-"
+			(uuid "7cffde48-df61-4d48-a3f9-6a322a624ed0")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 124.46 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a79db562-4443-41e2-a084-90f00b26f3b7")
+		(property "Reference" "#GND17"
+			(at 124.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 203.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0c0d2a4-ee96-47f9-9bfd-cf92986b334d")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:+12V")
+		(at 289.56 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0a8080f-751d-400c-99e9-425c62926e96")
+		(property "Reference" "#P+4"
+			(at 289.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 287.02 147.32 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "599ff389-b16a-4dec-a9aa-8325144157ec")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#P+4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:C-EUC1808")
+		(at 132.08 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1ae7c39-a2a2-464a-ba89-bf997b274b28")
+		(property "Reference" "C3"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n/1kV"
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:C1808"
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "783b60e6-7d84-4735-a3dd-ebc9be01aa43")
+		)
+		(pin "2"
+			(uuid "65764093-6fd1-4d88-b2dc-5547db42a42b")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:C-EUC1808")
+		(at 162.56 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4b7ec21-7181-4083-a203-95b6c571542c")
+		(property "Reference" "C2"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10n/1kV"
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:C1808"
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6466b98-6e66-494f-906a-8c4922baa194")
+		)
+		(pin "2"
+			(uuid "ab95d462-7e8f-415f-a1fb-fc940454c9f3")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 63.5 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bae35d1e-74b6-4fca-9ef2-2d985ef0faa6")
+		(property "Reference" "#GND13"
+			(at 63.5 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 203.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89d1b459-032c-47a3-992e-9c8eb2779420")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 185.42 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6cc4d88-4712-4575-8d83-3308cf626186")
+		(property "Reference" "#GND31"
+			(at 185.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 111.76 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb97d54e-dcfa-427f-8cbe-7a7e934973d9")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 63.5 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7dbf0b6-6464-4ea5-97ec-fdfeb4877b44")
+		(property "Reference" "#GND6"
+			(at 63.5 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 213.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56fc0f3a-8ec0-43eb-b7e1-e3b8986da877")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:RSPRO-1MM-TERMINAL-POST-2622034")
+		(at 205.74 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd0a6574-581b-48fa-ac0b-e842296d6331")
+		(property "Reference" "TP_+12V0"
+			(at 205.74 152.4 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RSPRO-1MM-TERMINAL-POST-2622034"
+			(at 208.28 152.4 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:RSPRO-1MM-TERMINAL-POST-2622034"
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "2f55c27d-3042-44e0-82b6-449ceb097a6e")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "TP_+12V0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:EEUHD1E103")
+		(at 228.6 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cebf49f6-fd43-4d6c-8d04-5a73610c4cf3")
+		(property "Reference" "C10"
+			(at 229.743 111.2774 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10000u/25V"
+			(at 229.743 116.3574 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:EEUHD1E103"
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "7e93eb71-4d0c-439f-9633-863220ecddd8")
+		)
+		(pin "-"
+			(uuid "6f896ceb-52ee-4b7f-8e8a-c09560dbacba")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GBJ610")
+		(at 147.32 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7348bf5-e144-4bd6-89b2-25d3f1385731")
+		(property "Reference" "BR1"
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GBJ610"
+			(at 149.86 78.74 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:GBJ610"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "-"
+			(uuid "0b1e2b90-7fcd-4f77-8bf6-ca1f638cbc54")
+		)
+		(pin "L"
+			(uuid "abd4478c-ae57-4e29-899b-cd0d3d54cfb2")
+		)
+		(pin "N"
+			(uuid "6c757f97-916b-4837-bbc0-4c70cb77e00d")
+		)
+		(pin "+"
+			(uuid "5be99123-8c5f-44e7-b2c2-7092cec91a0a")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "BR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:CPOL-EU153CLV-0810")
+		(at 190.5 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d97359b9-a7cf-4d37-9c49-6bf16a1d8019")
+		(property "Reference" "C13"
+			(at 191.643 182.3974 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100u/25V"
+			(at 191.643 187.4774 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:153CLV-0810"
+			(at 190.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "8f84e8ac-ac6f-4976-8fff-19a6205e5511")
+		)
+		(pin "-"
+			(uuid "cfa82c08-8696-44b2-ad14-8618d44ae0b7")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:R-EU_R2010")
+		(at 63.5 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db1a5cac-c72c-42f9-9f1e-339e9a5610b9")
+		(property "Reference" "R1"
+			(at 62.0014 186.69 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "360/2W"
+			(at 66.802 186.69 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:R2010"
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "316d40bf-1d3c-48e8-bb4a-9dc6b32c1ed5")
+		)
+		(pin "2"
+			(uuid "7e202d03-5a7c-49b5-a642-8798e2f0c8be")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 205.74 215.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd13cd43-f8c1-47c0-9d6b-0e6ab855cff8")
+		(property "Reference" "#GND11"
+			(at 205.74 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 213.36 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88d687ed-e4ef-4036-b13f-538b893dff94")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:EEUHD1E103")
+		(at 210.82 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e484b286-6a5c-4301-8401-6813226c7d1c")
+		(property "Reference" "C6"
+			(at 211.963 93.4974 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10000u/25V"
+			(at 211.963 98.5774 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:EEUHD1E103"
+			(at 210.82 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "2d2c7495-b68b-47a6-932c-36cc8aace079")
+		)
+		(pin "-"
+			(uuid "a5814330-886f-40fa-aa2d-95764ee14c84")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:FK_237_SA_220_O")
+		(at 157.48 266.7 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4f8af34-6948-4755-b9aa-7ea255b53c21")
+		(property "Reference" "HS2"
+			(at 157.48 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FK 237 SA 220 O"
+			(at 157.48 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:FK_237_SA_220_O"
+			(at 157.48 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "HS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:C-EUC0603")
+		(at 139.7 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed9fa685-6679-4914-906a-aa19c841e90f")
+		(property "Reference" "C12"
+			(at 141.224 182.499 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100n"
+			(at 141.224 187.579 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PowerSupply_12V_v1:C0603"
+			(at 139.7 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3111dd7-8dee-488c-850f-a390185207de")
+		)
+		(pin "2"
+			(uuid "16d18a3b-61f4-43a7-87c8-8a7e6d7b6076")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 93.98 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f81cef00-bdc9-4719-99b5-e71226e668b3")
+		(property "Reference" "#GND2"
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e70d48a4-c9f7-4bca-b53a-ed9a0ff55b74")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerSupply_12V_v1-eagle-import:GND")
+		(at 205.74 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe420361-c74f-488f-b84e-2a5491452b33")
+		(property "Reference" "#GND19"
+			(at 205.74 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 203.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c154f226-e203-47e6-bbf0-f797bd45c860")
+		)
+		(instances
+			(project ""
+				(path "/700d79c3-2cc5-41a4-8b59-1175e4612386/d47d20bf-ba06-4340-9d0a-2ab653fed2fb"
+					(reference "#GND19")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
